@@ -8,24 +8,41 @@ body {
 
 h1 {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-size: 50px;
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
     text-align: center;
 }
+h2 {
+                font-family: Verdana, sans-serif;
+                font-size: 21px;
+                color: gray;
+                text-align: center; 
+}
 .link-container {
-text-align: center;
+    text-align: center;
 }
 a.coming-soon {
     color: aquamarine;
     font-size: 16px;
-    text-align: center;
+    text-decoration: none;
+    }
+a.coming-soon:hover {
+        text-decoration: underline;
     }
 .image-container {
         text-align: center;
     }
     
 .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+.video-container {
+        text-align: center;
+    }
+
+.video-container video {
         max-width: 100%;
         height: auto;
     }
